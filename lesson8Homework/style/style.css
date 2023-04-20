@@ -1,0 +1,97 @@
+.h1{
+   text-align:center;
+   border:solid 1px;
+}
+body{
+   background-color: rgb(142, 255, 217);
+}
+.image1{
+   padding-left:150px;
+   padding-top:20px;
+   cursor:pointer;
+   transform: skew(10deg);
+}
+.image2{
+   padding-left:150px;
+   padding-top:20px;
+   cursor:pointer;
+   transform:skew(10deg);
+}
+.image3{
+   padding-left:150px;
+   padding-top:20px;
+   cursor:pointer;
+   transform:skew(10deg);
+}
+.image1:hover{
+   transform: scale(1.3);
+   transition:transform 5s;
+}
+.image2:hover{
+   transform:scale(1.3);
+   transition: transform 5s;
+}
+.image3:hover{
+   transform:scale(1.3);
+   transition: transform 5s;   
+}
+.keyframe{
+   width:150px;
+   height:150px;
+   position:relative;
+   animation:mymove 5s infinite;
+   display:flex;
+   justify-content:center;
+   border-radius:360%;
+}
+.image4{
+   border-radius:360%;
+}
+@keyframes mymove{
+   0% {top:0px; left:0px;background-color: rgb(22, 22, 249);}
+   25% {top:0px; left:1000px; background-color:rgb(255, 60, 60);}
+   50% {bottom:500px;left:1000px; background-color:rgb(255, 255, 0); }
+   75% {bottom:500px; left:0px; background-color:rgb(1, 255, 1);}
+   100% {top:opx;left:0px;background-color:rgb(255, 255, 255);}  
+}
+.center p{
+ text-align:center;
+ transform:translateY(0px);
+}
+.center p:hover{
+   transform:translateY(100px);
+   transition: 5s;
+}
+.center img{
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+   width:40%;
+}
+th{
+   background-color:rgb(96, 88, 88);
+   cursor:pointer;
+}
+tr:hover{
+transform: scale(1.3);
+transition: 3s;
+}
+td{
+   background-color:rgb(131, 131, 252);
+}
+ .tableleft{
+   position:relative;
+   padding:100px;
+   width:200px;
+   left:200px;
+   cursor:pointer;
+  
+ }
+.tableright{
+   position:relative;
+   padding:100px;
+   width:200px;
+   bottom:348px;
+   left:900px;
+}
+ 
