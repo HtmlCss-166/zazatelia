@@ -31,7 +31,7 @@ nav a {
     }
 }
 /* tablet mode */
-@media (min-width:481) and (max-width:786){
+@media (min-width:481px) and (max-width:786px){
     .pargraphs {
         display:flex;
     }
@@ -40,7 +40,7 @@ nav a {
     }
 }
 /* laptop mode */
-@media (min-width:769) and (max-width:1280) {
+@media (min-width:769px) and (max-width:1280px) {
     .paragraphs {
         display:flex;
     }
@@ -51,7 +51,7 @@ nav a {
 
 /* if min width or more */
 /* hight resolution dispaly mode */
-@media (min-width:1281) {
+@media (min-width:1281px) {
     .paragraphs {
       display:flex;
     }
