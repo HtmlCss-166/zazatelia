@@ -1,0 +1,27 @@
+:root {
+    --greenColor: rgb(0, 255, 0);
+    --redColor: rgb(255, 0, 0);
+    --globalFontSize:16px;
+}
+body{
+    background-color: var(--greenColor);
+
+}
+p{
+    color: var(--redColor);
+    font-size: var(--globalFontSize);
+}
+p::first-line{
+    color: rgb(243, 243, 37);
+}
+
+button{
+    color: var(--redColor);
+    font-size: var(--globalFontSize);
+}
+#pargraph1::before{
+    content: "This is the first pargraph";
+}
+#paragraph1::after{
+    content: "and this is the end of the first paragraph";
+}

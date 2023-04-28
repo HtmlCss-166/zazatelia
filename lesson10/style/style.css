@@ -1,0 +1,21 @@
+.grid-container{
+    display:grid;
+    column-gap:20px;
+    padding:15px;
+    background-color:cadetblue;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    background-color: aquamarine;
+    border:1px solid rgb(17, 16, 16);
+    font-size:20px;
+    text-align:center;
+    padding:20px;
+}
+.grid-container-row-gap{
+    display:grid;
+    row-gap:20px;
+    padding:15px;
+    background-color: cadetblue;
+    grid-template-columns: auto;
+}
