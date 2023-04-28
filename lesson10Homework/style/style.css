@@ -1,0 +1,134 @@
+:root{
+    --color: rgb(218, 46, 46);
+    --globalfontsize: 13px;
+}
+p{
+    color:var(--color);
+    font-size:var(--globalfontsize);
+}
+p::first-line{
+    color:rgb(73, 33, 204);
+}
+p::before{
+    content:"გამარჯობა";
+}
+*{
+    background-color:rgba(137, 240, 206, 0.763);
+}
+header{
+    display:grid;
+    column-gap:20px;
+    padding:15px;
+    grid-template-columns:auto auto auto auto;
+}
+h3{
+    margin-left:30px;
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+}
+nav a{
+    margin-left:230px;
+    font-size:25px;
+    text-decoration:none;
+    color:rgb(255, 0, 200);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav a:hover{
+    background-color: rgba(128, 229, 195, 0.735);
+}
+.container{
+   display:flex;
+}
+.images{
+    display:block;
+    margin-left:30px;
+    cursor:pointer;
+    width:33.33%;
+    position:relative;
+}
+.images:hover{
+   transition:transform 1s;
+}
+#leftsideimage1{
+padding:10px;
+}
+#leftsideimage1:hover{
+    transform:translateY(-10px);
+}
+#leftsideimage2{
+ margin-left:30px;
+ padding:10px;
+}
+#leftsideimage2:hover{
+    transform:translateY(-10px);
+}
+#leftsideimage3{
+ padding:10px;
+}
+#leftsideimage3:hover{
+    transform:translateY(-10px);
+}
+#leftsideimage4{
+ margin-left:30px;
+ padding:10px;
+}
+#leftsideimage4:hover{
+    transform:translateY(-10px);
+}
+.lorem{
+    display:block;
+    width:33.33%;
+    font-size:13px;
+}
+.images2{
+    width:33.3%;
+    display:inline-block;
+}
+#rightsideimg1{
+  padding:10px;
+}
+#rightsideimg2{
+   padding:10px;
+    margin-left:10px;
+}
+#rightsideimg3{
+    padding:10px;
+}
+#rightsideimg4{
+     margin-left:10px;
+     padding:10px;
+}
+#rightsideimg1:hover{
+   transform:translateY(-10px);
+}
+#rightsideimg2:hover{
+    transform:translateY(-10px);
+}
+#rightsideimg3:hover{
+    transform:translateY(-10px);
+}
+#rightsideimg4:hover{
+    transform:translateY(-10px);
+}
+.footer{
+    display:flex;
+    
+}
+.footer a{
+   text-decoration:none;
+   color:rgb(19, 18, 18);
+   margin-left:250px;
+}
+.a1 p{
+    margin-left:250px;
+    color:rgb(159, 156, 156);
+}
+.a2 p{
+    margin-left:250px;
+}
+.a3 p{
+    margin-left:250px;
+}
+.a4 p{
+    margin-left:250px;
+}
