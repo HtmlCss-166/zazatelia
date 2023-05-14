@@ -1,0 +1,27 @@
+.loginForm{
+ display:flex;
+ justify-content: center;
+
+}
+.formContent{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color:aquamarine
+}
+.formContent input{
+    margin:10px;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid black;
+}
+#submitButton{
+    margin:10px;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid black;
+    background-color:green;
+    color:white;
+}

@@ -1,0 +1,67 @@
+<html>
+    <head></head>
+    <body>
+        <header></header>
+        <main>
+            <p id="welcome">Welcome to home page</p>
+            <p id="result"></p>
+
+            <!-- form tag example using onClick event -->
+            <form onsubmit="formHandler()">
+                <label>Username</label>
+                <input type="text" name="username" />
+                <label>Password</label>
+                <input type="password" name="password" />
+                <input type="submit" value="Login" />
+            </form>
+            <p id="loginInfo"></p>
+        </main>
+        <footer></footer>
+        <script>
+            // function hello() {
+            //     alert('Hello World');
+            // }
+            // hello();
+
+            // calculator function, that receives 2 numbers and arithmetical operator as parameters and returns its result
+
+            function calculator(num1, num2, operator) {
+                if (operator == '+') {
+                    return num1 + num2;
+                } else if (operator == '-') {
+                    return num1 - num2;
+                } else if (operator == '*') {
+                    return num1 * num2;
+                } else if (operator == '/') {
+                    return num1 / num2;
+                } else {
+                    return 'Invalid operator';
+                }
+            }
+
+            var welcomeText = document.getElementById('welcome').innerHTML;
+
+            var result = document.getElementById('result');
+
+            if (welcomeText == 'Welcome to home page') {
+                result.innerHTML = calculator(10, 5, '+');
+            } else {
+                result.innerHTML = calculator(10, 5, '-');
+            }
+
+            function formHandler() {
+                var loginInfo = document.getElementById('loginInfo');
+                var username = document.getElementsByName('username')[0].value;
+                var password = document.getElementsByName('password')[0].value;
+                event.preventDefault();
+                
+                if (username == 'admin' && password == 'admin') {
+                    window.location.replace('loginSuccess.html');
+                } else {
+                    window.location.replace('loginFailed.html');
+                }
+            }
+
+        </script>
+    </body>
+</html>

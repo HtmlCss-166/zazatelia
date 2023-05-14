@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>lesson12</title>
+        <link rel="stylesheet" href="style/style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+         <div class="container">
+            <h1>Home</h1>
+            <p id="randomText">This is some text here</p>
+         </div>
+          <script type="text/javascript">
+            // alert();
+            // var welcomeText = "Welcome to the home page!"
+            // alert(welcomeText);
+            // var name = "giorgi"
+            // // var ricxvi = 5
+            // // if (ricxvi == "5")
+            // if (name ==="giorgi") {
+            //   alert("Welcome to the home page")
+            // }else if(name==="mari"){
+            //   alert("You are welcome here")
+            // }
+            // else{
+            //   alert("You are not welcome here!")
+            // }
+            var pTagVal = document.getElementById("randomText").innerHTML;
+            // alert(pTagVal)
+            var arrayOfFruits = ["apple", "banana", "orange"];
+
+            // alert( arrayOfFruits[2]+" " +arrayOfFruits[1], +arrayOfFruits[0]);
+            // var differentItems = ["item1", "item2", 4,7,9,15,10.25]
+
+            var person = {
+              name: "giorgi",
+              age: 25,
+              isMarried: false,
+              favFruits: ["apple", "banana", "orange"]
+            }
+            alert(JSON.stringify(person))
+          //   delete person.age;
+            
+          //   person['location'] = "Tbilisi";
+          // </script>
+    </body>
+</html>
