@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --white: rgb(255, 255, 255);
+}
+.container {
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("/Finalproject/images/background.jpg");
+    background-position:center;
+    background-size:cover;
+    padding-left:8%; 
+    padding-right:8%;
+    box-sizing: border-box;   
+}
+.logo{
+    width:20px;
+    cursor:pointer;
+    padding:10px;
+    position:relative;
+    top:0px;
+    background-color:#ecd7d7 ;
+}
+.logo:hover{
+    transform:translateY(-5px);
+    transition: transform 2s;
+}
+.navbar{
+    height:12%;
+    display:flex;
+    align-items:center;
+}
+.menu-icon{
+    width:30px;
+    cursor:pointer;
+    margin-left:40px;
+}
+nav{
+    margin-left:90px;
+    /* flex:1; */
+    text-align:right;
+}
+nav a:hover {
+    background-color:#020257;
+    color: var(--white);
+    transition:1s;
+    
+}
+nav a{
+   list-style:none;
+   display:inline-block;
+   margin-left:60px;
+   text-decoration: none;
+   color:rgb(36, 36, 210);
+}
+.dropdown{
+    display:block;
+    color:var(--white);
+    padding:10px;
+    
+    
+ }
+ 
+ .dropdovwn a:active{
+    background-color:green;
+    color:var(--white);
+ }
+ #dropdownlinks {
+    display:none;
+    
+ }
+#dropdownlinks a{
+ color:var(--white);
+ text-decoration: none;
+
+}
+#dropdownlinks a:hover{
+    background-color:rgb(64, 62, 186);
+}
+
+.aboutmoviezone{
+    display:flex;
+   
+}
+.page1{
+    color:var(--white);
+    cursor:pointer;
+    width:33.33%;
+}
+.page1 h1:hover{
+    transform:scale(1.1);
+    transition:transform 2s;
+}
+.page1 p:hover{
+    transform:translateY(10px);
+    transition:transform 1s;
+}
+.image1{
+    position:relative;
+    left:20px;
+    cursor:pointer;
+}
+.image1:hover{
+    transform:translateY(50px);
+    transition:transform 1s;
+}
+.page2{
+    
+    margin-left:300px;
+    color:var(--white);
+    position:relative;
+    right:200px;
+    cursor:pointer;
+    width:33.33%;
+}
+.page2 h1:hover{
+    transform:scale(1.1);
+    transition:transform 2s;
+}
+.page2 p:hover{
+    transform:translateY(10px);
+    transition:transform 1s;
+}
+.image2{
+  position:relative;
+  right:150px;
+  cursor:pointer;
+  
+}
+.image2:hover{
+    transform:translateY(50px);
+    transition:transform 1s;
+}
+.page3{
+    color:var(--white);
+    width:33.33%;
+}
+.page3 p{
+    padding:20px;
+}
+.page3 h1:hover{
+    transform:scale(1.1);
+    transition:transform 2s;
+}
+.page3 p:hover{
+    transform:translateY(10px);
+    transition:transform 1s;
+}
+input{
+    font-size:18px;
+    border-radius:2%;
+}
+button{
+    border-radius:10%;
+}
+button:hover{
+   background-color: rgb(116, 195, 169);
+}
+button:active{
+    background-color:rgb(6, 211, 243);
+}
+footer{
+    background-color:rgba(43, 43, 90, 0.785);
+}
+footer a{
+    text-decoration: none;
+   
+}
+footer a:hover{
+    background-color:rgb(70, 70, 138);
+    transition:1s;
+}
+.footera{
+    display:flex;
+   
+}
+.footera1{
+ margin-left:100px;
+ padding:10px;
+}
+
+.footera2{
+ margin-left:170px;
+ padding:10px;
+}
+.footera3{
+ margin-left:230px;
+ padding:10px;
+
+}
+.footera4{
+ margin-left:250px;
+ padding:10px
+
+}
+.footera4 svg{
+    width:15px;
+}
+@media (min-width:481px) and (max-width: 768px){
+    nav a{
+        color:var(--white);
+    }
+}
+@media (min-width:481px) and (max-width: 768px){
+    nav a{
+        color:var(--white);
+    }
+}
+@media (min-width:769px) and (max-width: 1280px){
+    
+}
