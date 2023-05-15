@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --white: white;
+}
+.container {
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("/Finalproject/images/background.jpg");
+    background-position:center;
+    background-size:cover;
+    padding-left:8%; 
+    padding-right:8%;
+    box-sizing: border-box;   
+}
+.navbar{
+    height:12%;
+    display:flex;
+    align-items:center;
+}
+.logo{
+    width:20px;
+    cursor:pointer;
+    padding:10px;
+    position:relative;
+    top:0px;
+    background-color:#ecd7d7 ;
+}
+.logo:hover{
+    transform:translateY(-5px);
+    transition: transform 2s;
+}
+.menu-icon{
+    width:30px;
+    cursor:pointer;
+    margin-left:40px;
+}
+nav{
+    margin-left:90px;
+    /* flex:1; */
+    text-align:right;
+}
+nav a:hover {
+    background-color:#020257;
+    color:var(--white);
+    transition:1s;
+    
+}
+nav a{
+   list-style:none;
+   display:inline-block;
+   margin-left:60px;
+   text-decoration: none;
+   color:rgb(36, 36, 210);
+}
+.dropdown{
+    display:block;
+    color:var(--white);
+    padding:10px;
+    
+    
+ }
+ 
+ .dropdovwn a:active{
+    background-color:green;
+    color:var(--white);
+ }
+ #dropdownlinks {
+    display:none;
+    
+ }
+#dropdownlinks a{
+ color:var(--white);
+ text-decoration: none;
+
+}
+#dropdownlinks a:hover{
+    background-color:rgb(64, 62, 186);
+}
+
+h1{
+    color:var(--white);
+    text-align: center;
+    text-shadow: rgb(224, 16, 16) 10px -20px 1px;
+}
+.aquamen{
+    display:flex;
+}
+.aquamen img{
+   margin-top:90px;
+   margin-right:0px;
+}
+.aquamen img:hover{
+    transform:translateY(-10px);
+    transition:transform 1s;
+}
+#imdb{
+    color:var(--white);
+    padding:10px;
+}
+#imdb:hover{
+    transform:scaleY(2);
+    transition:transform 1s;
+}
+.description{
+    color:var(--white);
+    margin-top:100px;
+    margin-left:30px;
+}
+#aquamenp1{
+    padding:10px;
+    font-size:25px;
+}
+#aquamenp2{
+    padding:10px;
+    font-size:25px;
+}
+#aquamenp3{
+    padding:10px;
+    font-size:25px;
+}
+#aquamenp4{
+    padding:10px;
+    font-size:25px;
+}
+ h2{
+   position:relative;
+   top:40px;
+}
+#aquamenp5{
+    position:relative;
+    top:60px;
+    font-size:20px;
+}
+footer{
+    background-color:rgba(43, 43, 90, 0.785);
+}
+footer a{
+    text-decoration: none;
+   
+}
+footer a:hover{
+    background-color:rgb(70, 70, 138);
+    transition:1s;
+}
+.footera{
+    display:flex;
+   
+}
+.footera1{
+ margin-left:100px;
+ padding:10px;
+}
+
+.footera2{
+ margin-left:170px;
+ padding:10px;
+}
+.footera3{
+ margin-left:230px;
+ padding:10px;
+
+}
+.footera4{
+ margin-left:250px;
+ padding:10px
+
+}
+.footera4 svg{
+    width:15px;
+}
+@media (min-width:481px) and (max-width: 768px){
+    nav a{
+        color:var(--white);
+    }
+}
+@media (min-width:481px) and (max-width: 768px){
+    nav a{
+        color:var(--white);
+    }
+}
+@media (min-width:769px) and (max-width: 1280px){
+    
+}
